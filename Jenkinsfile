@@ -11,7 +11,7 @@ pipeline {
         echo "${TEST_USER_PSW}"
       }
     }
-
+  }
   environment {
     MY_NAME = 'Mary'
     TEST_USER = credentials('test-user')
